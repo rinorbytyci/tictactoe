@@ -42,6 +42,8 @@ class ViewController: UIViewController {
         container1.isUserInteractionEnabled = false
         labelFituesi.center = CGPoint.init(x: labelFituesi.center.x - 500, y: labelFituesi.center.y)
         buttonRifillo.center = CGPoint.init(x: buttonRifillo.center.x - 500, y: buttonRifillo.center.y)
+        
+        //Komenti
     
         for var butoni in 1...9{
             let buttonView:UIButton = view.viewWithTag(butoni) as! UIButton
